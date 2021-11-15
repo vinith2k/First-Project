@@ -1,0 +1,161 @@
+.navPad{
+    padding: 4;
+}
+
+.imageSize{
+    width: 15%;
+    height: 15%;
+}
+
+.carousel-content {
+    position: absolute;
+    bottom: 37%;
+    left: 5%;
+    color: white;
+}
+
+.text-font{
+    font-size: 430%;
+}
+
+.sCard{
+    margin: 10px;
+}
+
+.sCard :hover{
+    border: 2;
+    border-color: blue;
+}
+
+.secSize{
+    height: 80%;
+    padding-top:5%;
+    padding-bottom: 25%;
+}
+
+.photoGrid{
+    display: grid;
+    grid-template-columns: 25% 25%;
+    grid-template-rows: 25% 25%;
+}
+
+.photoGrid2{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+}
+
+.gridImage{
+    margin-top:-160px;
+}
+
+.sectionSize{
+    padding-top: 10%;
+}
+
+.textAlign{
+    text-align: right;
+}
+
+.cardBg{
+    background-image: url('https://randomuser.me/api/portraits/women/18.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+.cardBg2{
+    background-image: url('https://randomuser.me/api/portraits/men/11.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+.cardBg3{
+    background-image: url('https://randomuser.me/api/portraits/women/3.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+.cardBg4{
+    background-image: url('https://randomuser.me/api/portraits/men/9.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+
+.textMB{
+    margin-bottom: 50px;
+}
+
+.cardHover:hover{
+    color: white;
+    background-color: blue;
+    padding-top: 10px;
+}
+
+.team-title{
+    float:left;
+}
+
+.team-link{
+    float:right;
+}
+
+.icon{
+    display: inline-block;
+    width:100%;
+    text-align: center;
+}
+
+
+.logo{
+    width:10%;
+    height: 20%;
+    padding: 2%;
+    margin-right: 7%;
+    color: none;
+}
+
+.centered1 {
+    margin-top: -134px;
+    margin-left: 40px;
+    font-size: 16px;
+}
+.centered2 {
+    margin-top: -10px;
+    margin-left: 40px;
+    text-align: justify;
+     
+}
+
+.socialApp{
+    padding: 10px;
+}
+
+.leadM{
+    font-size: 10px;
+    float: left;
+}
+
+textarea{
+    resize: none;
+}
+
+.footerLogo{
+    width:8%;
+}
+
+.footerP{
+    margin-top: -35px;
+    margin-bottom: -1rem;
+    margin-left: 55px;
+    font-size: 20px;
+}
+
+.footerSectionSize{
+    /* height: 80%; */
+    padding-top:8%;
+    padding-bottom: 10%;   
+}

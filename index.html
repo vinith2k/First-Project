@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- CSS file  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Favicons -->
+    <link href="img/Screenshot_from_2021-09-27_16-00-26-removebg-preview.png" rel="icon">
+    <link href="img/Screenshot_from_2021-09-27_16-00-26-removebg-preview.png" rel="apple-touch-icon">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>Assignment</title>
+
+</head> 
+<body>
+    
+    <!-- header -->
+    <nav class="navbar navbar-expand-md navbar-primary bg-dark text-white navPad sticky-top">
+        <div class="container">
+            <a href="#" class="navbar-brand text-white">
+                <img src="img/Screenshot_from_2021-09-27_16-00-26-removebg-preview.png" class='imageSize'>
+                Responsive WebSite
+            </a>
+
+            <button class="navbar-toggler bg-danger" type='button' data-bs-toggle="collapse" data-bs-target='#navMenu'><span class="navbar-toggler-icon"> <i class="fa fa-bars"></i> </span></button>
+
+            <div class="collapse navbar-collapse" id='navMenu'>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#" class='nav-link text-white'>Home<i class="fa fa-angle-down"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#clients" class='nav-link text-white'>Pages<i class="fa fa-angle-down"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#ourTeam" class='nav-link text-white'>Shop<i class="fa fa-angle-down"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class='nav-link text-white'>Portfolio<i class="fa fa-angle-down"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class='nav-link text-white'>Elements<i class="fa fa-angle-down"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class='nav-link text-white'>Blog<i class="fa fa-angle-down"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class='nav-link text-white'><i class="fa fa-shopping-bag"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class='nav-link text-white'><i class="fa fa-search"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    
+    <!-- Main -->
+    <section>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="img/img1.png" class="d-block w-100" alt="...">
+                  <div class="align-items-center carousel-content">
+                    <h1 class='text-font'>This is Brook <i class="fa fa-long-arrow-right"></i> A Full-Service creative agency</h1>
+                  </div>
+                  <div class="carousel-caption">
+                    <h3 class="team-title"> Scroll for more</h3>
+                    <button onclick="displayIframe()" class='btn text-white team-link'><h3>Watch Video <i class="fa fa-youtube-play"></i></h3></i></button>
+                    <div id="iframeDisplay"></div>  
+
+                        <script>
+                            function displayIframe() {
+                                 document.getElementById("iframeDisplay").innerHTML = "<iframe src=\"https://www.youtube.com/embed/t4GNtutHr48\" frameborder=\"0\" height=\"100\" width=\"100\" ></iframe>";
+
+                            }
+                        </script> 
+                    </div>  
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/img2.png" class="d-block w-100" alt="...">
+                <div class="align-items-center carousel-content">
+                    <h1 class='text-font'>This is Brook <i class="fa fa-long-arrow-right"></i> A Full-Service creative agency</h1>
+                  </div>
+                  <div class="carousel-caption">
+                    <h3 class="team-title"> Scroll for more</h3>
+                    <button onclick="displayIframe()" class='btn text-white team-link'><h3>Watch Video <i class="fa fa-youtube-play"></i></h3></i></button>
+                    <div id="iframeDisplay"></div>  
+
+                        <script>
+                            function displayIframe() {
+                                 document.getElementById("iframeDisplay").innerHTML = "<iframe src=\"https://www.youtube.com/embed/t4GNtutHr48\" frameborder=\"0\" height=\"100\" width=\"100\" ></iframe>";
+
+                            }
+                        </script> 
+                    </div>  
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/img3.png" class="d-block w-100" alt="...">
+                <div class="align-items-center carousel-content">
+                    <h1 class='text-font'>This is Brook <i class="fa fa-long-arrow-right"></i> A Full-Service creative agency</h1>
+                  </div>
+                  <div class="carousel-caption">
+                    <h3 class="team-title"> Scroll for more</h3>
+                    <button onclick="displayIframe()" class='btn text-white team-link'><h3>Watch Video <i class="fa fa-youtube-play"></i></h3></i></button>
+                    <div id="iframeDisplay"></div>  
+
+                        <script>
+                            function displayIframe() {
+                                 document.getElementById("iframeDisplay").innerHTML = "<iframe src=\"https://www.youtube.com/embed/t4GNtutHr48\" frameborder=\"0\" height=\"100\" width=\"100\" ></iframe>";
+
+                            }
+                        </script> 
+                    </div>  
+                  </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <!-- Services -->
+    <section class="p-5">
+        <div class="container">
+            <div class="row text-center">
+                <p class='lead mb-5 text-primary'>What we Do</p>
+                <div class="d-sm-flex align-items-center justify-content-between">
+                    <h1 class='mb-5'>We build and design brands, campains and digital projects for businesses large and small </h1>
+                </div>
+                <div class="col-md sCard">
+                    <div class="card shadow">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3 text-primary">
+                                <i class="fa fa-laptop"></i>
+                            </div>
+                            <h3 class='card-title mb-3'>
+                                Responsive
+                            </h3>
+                            <p class='card-text'>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis illo id non recusandae esse et qui doloremque labore corrupti repellendus, eveniet, nulla commodi dignissimos.
+                            </p>
+                            <button class='btn text-primary'><h6>More Info <i class="fa fa-arrow-right"></i></h6></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md sCard">
+                    <div class="card shadow">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3 text-primary">
+                                <i class="fa fa-cubes"></i>
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Tech Stacks
+                            </h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis illo id non recusandae esse et qui doloremque labore corrupti repellendus, eveniet, nulla commodi dignissimos.
+                            </p>
+                            <button class='btn text-primary'><h6>More Info <i class="fa fa-arrow-right"></i></h6></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md sCard">
+                    <div class="card shadow">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3 text-primary">
+                                <i class="fa fa-cogs"></i>
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Easy Integration
+                            </h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis illo id non recusandae esse et qui doloremque labore corrupti repellendus, eveniet, nulla commodi dignissimos.
+                            </p>
+                            <button class='btn text-primary'><h6>More Info <i class="fa fa-arrow-right"></i></h6></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="bg-dark text-center secSize">
+        <p class="lead text-primary">PORTFOLIO</p>
+        <h1 class="text-white">Create and Make your Dream</h1>
+        
+    </section>
+
+
+    <section>
+        <div class='container photoGrid'>
+            
+            <div class="gridImage img-fluid">
+                <img src="img/undraw_Responsive_re_e1nn.svg" alt="">
+            </div>
+            <div class="gridImage img-fluid">
+                <img src="img/undraw_Hello_re_3evm.svg" alt="">
+            </div>
+            <!-- <div class="img-fluid">
+                <img src="img/undraw_Website_setup_re_d4y9.svg" alt="">
+            </div> -->
+        </div>
+    </section>
+
+
+    <section class='sectionSize'>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="text-left">
+                        <p class="lead text-primary"> <strong>Number Speaks</strong>
+                        </p>
+                        <h1>We are always</h1><br> 
+                        <h1>ready for <strong style='color: red;'>challenge</strong> </h1>
+                        <button class='btn btn-danger text-center mt-1'>Learn More</button> 
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="textAlign">
+                        <h1>1035</h1>
+                        
+                    </div>
+                </div>
+                <div class="col-6">
+                    <p class="lead">Successfull Projects</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur, quasi!</p>
+                </div>
+                <div class="row">
+                    <div class="col-4"></div>
+                    <div class="col-2">
+                        <div class="textAlign">
+                            <h1>2020</h1>
+                            
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <p class="lead">Unique Designs</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur, quasi!</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Our team -->
+    <section id="ourTeam" class="sectionSize">
+        <div class="container">
+            <h2 class="text-left lead text-primary">Our creative Crew</h2>
+            <h5 class="text-right text-primary team-link lead">view all members<i class="fa fa-arrow-right"></i></h5>
+            <br><br>
+            <div class="container">
+                <div class="row pt-8">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card cardSize">
+                            <div class="card-body cardBg text-center"> 
+                            </div>
+                            <!-- <div class="d-flex justify-content-center">
+                                <a href='#'><i class="fa fa-twitter text-dark mx-1"></i></a>
+                                <a href='#'><i class="fa fa-instagram text-dark mx-1"></i></a>
+                                <a href='#'><i class="fa fa-facebook text-dark mx-1"></i></a>
+                            </div> -->
+                        </div>
+                        <h5 class='text-left mt-3'>Caroline Ross</h5>
+                        <p class="lead">Designer</p>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card bg-light">
+                            <div class="card-body cardBg2 text-center">
+                            </div>
+                            <!-- <div class="d-flex justify-content-center">
+                                <a href='#'><i class="fa fa-twitter text-dark mx-1"></i></a>
+                                <a href='#'><i class="fa fa-instagram text-dark mx-1"></i></a>
+                                <a href='#'><i class="fa fa-facebook text-dark mx-1"></i></a>
+                            </div> -->
+                        </div>
+                        <h5 class='text-left mt-3'>Blake Hamilton</h5>
+                        <p class="lead">Engineer</p>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card bg-light">
+                            <div class="card-body cardBg3 text-center">
+                            </div>
+                            
+                            <!-- <div class="d-flex justify-content-center">
+                                <a href='#'><i class="fa fa-twitter text-dark mx-1"></i></a>
+                                <a href='#'><i class="fa fa-instagram text-dark mx-1"></i></a>
+                                <a href='#'><i class="fa fa-facebook text-dark mx-1"></i></a>
+                            </div> -->
+                        </div>
+                        <h5 class='text-left mt-3'>Kashara May</h5>
+                        <p class="lead">Founder</p>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card bg-light">
+                            <div class="card-body cardBg4 text-center">
+                            </div>
+                            <!-- <div class="d-flex justify-content-center">
+                                <a href='#'><i class="fa fa-twitter text-dark mx-1"></i></a>
+                                <a href='#'><i class="fa fa-instagram text-dark mx-1"></i></a>
+                                <a href='#'><i class="fa fa-facebook text-dark mx-1"></i></a>
+                            </div> -->
+                        </div>
+                        <h5 class='text-left mt-3'>Peter Parker</h5>
+                        <p class="lead">Marketing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Testimonials -->
+    <section class="sectionSize" id='clients' style="background-color:gainsboro; padding-bottom: 10%;">
+        <div class="container">
+            <div class="row">
+                <p class='lead mb-5 text-primary text-center'>Testimonials</p>
+                <h1 class="text-center textMB">Feedback From Our Clients</h1>
+                
+                <div class="col-md">
+                    <div class="card shadow">
+                        <div class="card-body cardHover text-center">
+                            
+                            <p class='card-text' style="padding: 10px;text-align: justify;">
+                                " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis illo id non recusandae esse et qui doloremque labore corrupti repellendus, eveniet, nulla commodi dignissimos. "
+                            </p>
+                            <div>
+                                <img src="https://randomuser.me/api/portraits/men/18.jpg" style="width: 40%; height: 20%;border-radius: 100%;" alt="">
+                                <h3 class='card-title team-link mb-3'>
+                                    John Doe
+                                    <p class="lead">PR Officer</p>
+                                    <i class="fa fa-quote-right team-link"></i>
+                                </h3>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card shadow">
+                        <div class="card-body cardHover text-center">
+                            
+                            <p class='card-text' style="padding: 10px;text-align: justify;">
+                                " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis illo id non recusandae esse et qui doloremque labore corrupti repellendus, eveniet, nulla commodi dignissimos. "
+                            </p>
+                            <div>
+                                <img src="https://randomuser.me/api/portraits/men/18.jpg" style="width: 40%; height: 20%;border-radius: 100%;" alt="">
+                                <h3 class='card-title team-link mb-3'>
+                                    John Doe
+                                    <p class="lead">PR Officer</p>
+                                    <i class="fa fa-quote-right team-link"></i>
+                                </h3>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card shadow">
+                        <div class="card-body cardHover text-center">
+                            
+                            <p class='card-text' style="padding: 10px;text-align: justify;">
+                                " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis illo id non recusandae esse et qui doloremque labore corrupti repellendus, eveniet, nulla commodi dignissimos. "
+                            </p>
+                            <div>
+                                <img src="https://randomuser.me/api/portraits/men/18.jpg" style="width: 40%; height: 20%;border-radius: 100%;" alt="">
+                                <h3 class='card-title team-link mb-3'>
+                                    John Doe
+                                    <p class="lead">PR Officer</p>
+                                    <i class="fa fa-quote-right team-link"></i>
+                                </h3>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card shadow">
+                        <div class="card-body cardHover text-center">
+                            
+                            <p class='card-text' style="padding: 10px;text-align: justify;">
+                                " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis illo id non recusandae esse et qui doloremque labore corrupti repellendus, eveniet, nulla commodi dignissimos. "
+                            </p>
+                            <div>
+                                <img src="https://randomuser.me/api/portraits/men/18.jpg" style="width: 40%; height: 20%;border-radius: 100%;" alt="">
+                                <h3 class='card-title team-link mb-3'>
+                                    John Doe
+                                    <p class="lead">PR Officer</p>
+                                    <i class="fa fa-quote-right team-link"></i>
+                                </h3>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card shadow">
+                        <div class="card-body cardHover text-center">
+                            
+                            <p class='card-text' style="padding: 10px;text-align: justify;">
+                                " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis illo id non recusandae esse et qui doloremque labore corrupti repellendus, eveniet, nulla commodi dignissimos. "
+                            </p>
+                            <div>
+                                <img src="https://randomuser.me/api/portraits/men/18.jpg" style="width: 40%; height: 20%;border-radius: 100%;" alt="">
+                                <h3 class='card-title team-link mb-3'>
+                                    John Doe
+                                    <p class="lead">PR Officer</p>
+                                    <i class="fa fa-quote-right team-link"></i>
+                                </h3>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- clients list -->
+    <section class="text-dark text-center">
+        <div class="container">
+                <div>
+                    <!-- <h1 class='text-center'>Our Clients</h1> -->
+                    <img class="logo img-responsive" src="img/download1-removebg-preview.png" alt="...">
+                    <img class="logo img-responsive" src="img/download2-removebg-preview.png" alt="...">
+                    <img class="logo img-responsive" src="img/download3-removebg-preview.png" alt="...">
+                    <img class="logo img-responsive" src="img/download4-removebg-preview.png" alt="...">
+                    <img class="logo img-responsive" src="img/images5-removebg-preview.png" alt="...">
+                </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="text-white bg-primary sectionSize text-center" style='padding-bottom: 10%;'>
+        <div class="container">
+            <h1>From Our Blogs</h1>
+        </div>
+    </section><br>
+
+
+    <section class="container">
+        <div class='photoGrid2' style="padding-left: 20%;">
+            
+            <div class="gridImage img-fluid">
+                
+                <img src="img/blog.jpg" alt="" style="width: 110%;height:140%;">
+                <div>
+                    <p class="lead text-white centered1">January 7, 2018 | Photography</p>
+                    <h4 class='text-white centered2'>Career Tips for Emerging Photographers</h4>
+                </div>
+            </div>
+            <div class="gridImage img-fluid">
+                <img src="img/blog.jpg" alt="" style="width: 110%;height:140%;margin-left: 10%;">
+                <div>
+                    <p class="lead text-white centered1">January 7, 2018 | Photography</p>
+                    <h4 class='text-white centered2'>Career Tips for Emerging Photographers</h4>
+                </div>
+            </div>
+            <div class="gridImage img-fluid">
+                <img src="img/blog.jpg" alt="" style="width: 110%;height:140%;margin-left: 10%;">
+                <div>
+                    <h4 class='text-white centered1'></h4>
+                    <h4 class="text-white centered2">Career Tips for Emerging Photographers </h4> <br> <h4 class="text-white centered2" style='margin-left: 120px;padding-bottom: 30px;font-size: 15px;'> - Harley Hay</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Contact -->
+    <section id="contact" class="contact sectionSize" style="margin-top: 10%;">
+        <div class="container text-dark">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="info-box">
+                    <h3>Visit Our Studio At</h3>
+                    <p>2005 Stokes Isle Apt. 896, Shop<br>Plaza 10010, USA</p>
+                  </div>
+                  <div class="info-box">
+                    <h3>Message Us</h3>
+                    <p>info@yourdomain.com</p>
+                    <p>(+68) 120034509</p>
+                  </div>
+                  <div class="info-box">
+                    <p><i class="fa fa-facebook-official socialApp"></i><i class="fa fa-twitter socialApp"></i><i class="fa fa-instagram socialApp"></i><i class="socialApp fa fa-linkedin"></i><i class="socialApp fa fa-pinterest"></i></p>
+                  </div>
+                </div>
+              </div>
+  
+            </div>
+  
+            <div class="col-lg-6">
+              <form action="" method="post" class="" id="#signup">
+                
+                <div class="row" style="margin-bottom: 20px;">
+  
+                  <div class="col-md-6">
+                    <input type="text" name="from_name" id="from_name" class="form-control" placeholder="Your Name" required style="margin-bottom: 20px;">
+                  </div>
+  
+                  <div class="col-md-6 ">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required style="margin-bottom: 20px;">
+                    <small></small>
+                  </div>
+  
+                  <div class="col-md-12">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required style="margin-bottom: 20px;">
+                  </div>
+  
+                  <div class="col-md-12">
+                    <textarea class="form-control" name="message" id="message" rows="6" placeholder="Message" required style="margin-bottom: 20px;"></textarea>
+                  </div>
+  
+                  <div class="col-md-12">
+                    <p class="lead leadM" style="float: left;margin-top: 10px;">I’m available for commissions and collaborations, and i’m
+                        excited to hear from you about new projects</p>
+                    <button class="btn btn-danger" type="submit" value="Send Email" style="float: right;margin-top: 10px;margin-bottom: 20px;">Send Message</button>
+                  </div>
+  
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+    </section>
+
+
+    <section class="footerSectionSize bg-dark">
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-6">
+                <div class="text-white">
+                    <img src="img/Screenshot_from_2021-09-27_16-00-26-removebg-preview.png" class='imageSize footerLogo'>
+                    <p class='footerP'>Responsive WebSite</p> 
+                </div>
+            </div>    
+            <div class="col-3">
+                <div class="text-white text-center">
+                    <h3 style="padding-bottom: 40px;">About Us</h3>
+                    <p class="lead" style='font-size: 15px;'>About us </p>
+                    <p class="lead" style='font-size: 15px;'>Team </p>
+                    <p class="lead" style='font-size: 15px;'>Career</p>
+                    <p class="lead" style='font-size: 15px;'>Services</p>
+                    <p class="lead" style='font-size: 15px;'>Contact</p>
+                </div>
+                
+            </div>
+            <div class="col-3">
+                <div class="text-white text-center">
+                    <h3 style="padding-bottom: 40px;">Contact</h3>
+                    <p class="lead" style='font-size: 15px;'>2005 Stokes Isle Apt. 896, Shop<br>Plaza 10010, USA</p>             
+                    <p class="lead" style='font-size: 15px;'>info@yourdomain.com</p>
+                    <p class="lead" style='font-size: 15px;'>(+68) 120034509</p>
+                    <p><i class="fa fa-facebook-official socialApp"></i><i class="fa fa-twitter socialApp"></i><i class="fa fa-instagram socialApp"></i><i class="socialApp fa fa-linkedin"></i><i class="socialApp fa fa-pinterest"></i></p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                    <div class="text-white" style ='float: left;padding:20px;'>
+                        <nav class="navbar-expand-md navbar-primary bg-dark text-white navPad">
+                            <div class="" id="navMenu">
+                                <ul class="navbar-nav ms-auto">
+                                    <li class="nav-item">
+                                        <a href="#" class='nav-link text-white'>Our Blog</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#clients" class='nav-link text-white'>Latest Projects</i></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#ourTeam" class='nav-link text-white'>Contact Us</i></a>
+                                    </li>
+                                </ul>
+                            </div>   
+                        </nav>
+                    </div>
+            </div>
+            <div class="col-6">
+                <div class="text-white" style='float: right;padding:20px;'>
+                    &copy; Copyright <strong><span>Intense Technologies</span></strong>. All Rights Reserved
+                </div>
+            </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Javascript Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>
